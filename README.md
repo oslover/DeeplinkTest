@@ -11,7 +11,7 @@ This is to demonstrate how to read and show the parameters from deeplink.
 
   *Bundle ID - https://developer.apple.com/account/ios/identifier/bundle* 
 
-- Deploy the apple-app-site-association file on the root directory of your website(i.e: www.appname.com).
+- Deploy the apple-app-site-association file in the root directory of your website(i.e: www.appname.com).
 
 ### iOS app configuration
 - Open the xcode project and select DeeplinkTest.entitlements file 
