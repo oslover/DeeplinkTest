@@ -10,6 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController {
     @IBOutlet weak var lblStatus: UILabel!
+    @IBOutlet weak var btnCapture: CaptureButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,5 +30,9 @@ class MainViewController: UIViewController {
                 lblStatus.text = "\(params)"
             }
         }
+    }
+    
+    @IBAction func onSwitch(_ sender: UISwitch) {
+        btnCapture.isPhotoButton = sender.isOn
     }
 }

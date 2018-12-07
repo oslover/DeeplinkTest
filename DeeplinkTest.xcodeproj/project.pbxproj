@@ -14,6 +14,7 @@
 		9A3A3CF621B7451E00B0A3E3 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A3CF521B7451E00B0A3E3 /* URLExtensions.swift */; };
 		9A3A3CF821B7471200B0A3E3 /* DeeplinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A3CF721B7471200B0A3E3 /* DeeplinkManager.swift */; };
 		9A3A3CFC21B747AE00B0A3E3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A3CFB21B747AE00B0A3E3 /* MainViewController.swift */; };
+		9A842CB921B9D4E70036B9DA /* CaptureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A842CB821B9D4E70036B9DA /* CaptureButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9A3A3CF521B7451E00B0A3E3 /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
 		9A3A3CF721B7471200B0A3E3 /* DeeplinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkManager.swift; sourceTree = "<group>"; };
 		9A3A3CFB21B747AE00B0A3E3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9A842CB821B9D4E70036B9DA /* CaptureButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		9A3A3CE121B733A800B0A3E3 /* DeeplinkTest */ = {
 			isa = PBXGroup;
 			children = (
+				9A842CB721B9D4D00036B9DA /* View */,
 				9A3A3CF421B7356E00B0A3E3 /* DeeplinkTest.entitlements */,
 				9A3A3CFA21B7471A00B0A3E3 /* Controller */,
 				9A3A3CF921B7471600B0A3E3 /* Model */,
@@ -86,6 +89,14 @@
 				9A3A3CFB21B747AE00B0A3E3 /* MainViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A842CB721B9D4D00036B9DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A842CB821B9D4E70036B9DA /* CaptureButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3A3CF621B7451E00B0A3E3 /* URLExtensions.swift in Sources */,
+				9A842CB921B9D4E70036B9DA /* CaptureButton.swift in Sources */,
 				9A3A3CE321B733A800B0A3E3 /* AppDelegate.swift in Sources */,
 				9A3A3CF821B7471200B0A3E3 /* DeeplinkManager.swift in Sources */,
 				9A3A3CFC21B747AE00B0A3E3 /* MainViewController.swift in Sources */,
