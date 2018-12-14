@@ -20,7 +20,5 @@ This is to demonstrate how to read and show the parameters from deeplink.
 ## That's it
 :+1: Congratulations
 
-# Final result
-![](/Screenshot/deeplink_test.gif)
 
 
